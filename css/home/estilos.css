@@ -1,0 +1,29 @@
+.banners-home {
+  width: 100%;
+}
+#infosClientes {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#infosClientes > :nth-child(n) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#infosClientes > :nth-child(n) > :nth-child(1) {
+  margin-right: 5px;
+}
+
+/* VITRINE */
+.vitrine > .titulo {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 10px 0;
+}
+.vitrine > .itens {
+  display: flex;
+  width: 100%;
+}
+/* VITRINE */
