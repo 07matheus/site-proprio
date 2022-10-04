@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  padding: 0 15px;
+}
+
+/* VITRINES */
+.vitrine {
+  margin: 20px 0;
+}
+.vitrine > .titulo {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 10px 0;
+}
+.vitrine > .itens {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.vitrine > .itens .slick-prev {
+  left: -10px;
+  z-index: 9999;
+}
+.vitrine > .itens .slick-next {
+  right: 10px;
+}
+.vitrine > .itens > .item {
+  width: 22%;
+  padding: 10px;
+}
+.vitrine .item .box-item {
+  padding: 5px;
+}
+.vitrine .item .box-item > .imagem img {
+  width: 100%;
+}
+.vitrine .item .box-item > .nome-produto {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.vitrine .item .box-item > .box-precos {
+  text-align: center;
+}
+.vitrine .item .box-item > .box-precos > .preco-de {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.vitrine .item .box-item > .box-precos .preco-por {
+  font-size: 13px;
+}
+.vitrine .item .box-item > .botao-comprar {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.vitrine .itens .slick-arrow::before {
+  color: #d20404;
+  cursor: pointer;
+}
+@media(max-width: 576px) {
+  .vitrine > .itens {
+    padding: 0 40px;
+  }
+  .vitrine > .itens .slick-prev {
+    left: 0;
+  }
+  .vitrine > .itens .slick-next {
+    right: 0;
+  }
+  .vitrine > .itens .slick-dots {
+    position: inherit;
+  }
+  .vitrine .item .box-item > .imagem img {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/* VITRINES */
