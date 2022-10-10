@@ -6,6 +6,117 @@
   padding: 0 15px;
 }
 
+/* CABECALHO */
+header {
+  background-color: #000;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  color: #bfbfbf;
+}
+header a.logo:hover {
+  color: #fff;
+}
+header .logo > :nth-child(n) {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+header .logo > :nth-child(1) {
+  font-weight: bold;
+  font-size: 34px;
+}
+header .logo > :nth-child(2) {
+  font-size: 14px;
+  font-style: italic;
+}
+header .icone-menu-mobile {
+  color: #fff;
+  font-size: 50px;
+}
+header .item-topo-menu {
+  display: none;
+  justify-content: end;
+  padding: 10px 15px;
+}
+header .item-topo-menu .item {
+  font-size: 14px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+header .item-topo-menu .item:hover {
+  text-decoration: none;
+}
+header .item-topo-menu .item.carrinho > :nth-child(1) {
+  margin-right: 5px;
+}
+header .item-topo-menu .item.carrinho > :nth-child(2) {
+  background-color: #fff;
+  border-radius: 50%;
+  min-width: 21px;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+header .item-topo-menu .item.carrinho:hover {
+  color: #fff;
+}
+@media(min-width: 992px) {
+  header .item-topo-menu {
+    display: flex;
+  }
+}
+/* CABECALHO */
+
+/* RODAPÉ */
+.newsletter {
+  background-color: #fdfd01;
+}
+.newsletter .titulo > :nth-child(1) {
+  font-size: 24px;
+  font-weight: bold;
+}
+.newsletter .titulo > :nth-child(2) {
+  font-size: 14px;
+}
+.pagamentos {
+  background-color: #000;
+  color: #fff
+}
+.pagamentos .titulo {
+  font-weight: bold;
+  font-size: 20px;
+}
+.pagamentos .item-social .icone {
+  width: 20px;
+  margin-right: 5px;
+}
+.pagamentos .item-social .texto {
+  color: #fff;
+}
+.pagamentos .item-social {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.pagamentos .item-menu-rodape {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+}
+.item-menu-rodape::before {
+  content: "\e5df";
+  font-family: "Material Icons";
+  margin-right: 5px;
+}
+/* RODAPÉ */
+
 /* VITRINES */
 .vitrine {
   margin: 20px 0;
