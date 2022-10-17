@@ -1,0 +1,28 @@
+.itens-carrinho .header {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #d0d0d0;
+}
+.itens-carrinho .item {
+  font-size: 14px;
+}
+.itens-carrinho .item:not(:last-child) {
+  border-bottom: 1px solid #dee2e6;
+}
+.itens-carrinho .item .bold {
+  font-weight: 600;
+}
+.itens-carrinho .item .botao {
+  background-color: var(--blue);
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 21px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .itens-carrinho .item img {
+    width: 100%;
+  }
+}
