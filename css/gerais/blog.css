@@ -1,0 +1,19 @@
+.bg-sobre-nos {
+  background-image: url("./../../img/blog/sobre-nos.jpg");
+  background-size: cover;
+}
+.bg-politica-entrega {
+  background-image: url("./../../img/blog/politica-entrega.png");
+  background-size: cover;
+  color: #000 !important;
+}
+.bg-como-comprar {
+  background-image: url("./../../img/blog/como-comprar.jpg");
+  background-size: cover;
+  color: #000 !important;
+}
+.bg-envio {
+  background-image: url("./../../img/blog/envio.jpg");
+  background-size: cover;
+  color: #000 !important;
+}
